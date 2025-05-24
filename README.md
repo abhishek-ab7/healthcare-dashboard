@@ -26,45 +26,6 @@ This is a **static healthcare dashboard** that showcases advanced React componen
 
 ---
 
-## 📁 Project Structure
-
-healthcare-dashboard/
-├── public/
-│ ├── index.html
-│ └── favicon.ico
-├── src/
-│ ├── components/
-│ │ ├── Header.jsx
-│ │ ├── Sidebar.jsx
-│ │ ├── DashboardMainContent.jsx
-│ │ ├── AnatomySection.jsx
-│ │ ├── CalendarView.jsx
-│ │ ├── UpcomingSchedule.jsx
-│ │ ├── SimpleAppointmentCard.jsx
-│ │ └── ActivityFeed.jsx
-│ ├── data/
-│ │ ├── navigationData.js
-│ │ ├── healthData.js
-│ │ ├── calendarData.js
-│ │ ├── scheduleData.js
-│ │ └── activityData.js
-│ ├── styles/
-│ │ ├── App.css
-│ │ ├── Header.css
-│ │ ├── Sidebar.css
-│ │ ├── DashboardMainContent.css
-│ │ ├── AnatomySection.css
-│ │ ├── CalendarView.css
-│ │ ├── UpcomingSchedule.css
-│ │ ├── SimpleAppointmentCard.css
-│ │ └── ActivityFeed.css
-│ ├── App.jsx
-│ └── index.js
-├── package.json
-└── README.md
-
-
----
 
 ## ✅ Prerequisites
 
@@ -78,8 +39,9 @@ healthcare-dashboard/
 ### 🧩 Installation
 
 # Clone the repository
-git clone https://github.com/abhishek-ab7/healthcare-dashboard.git
-cd healthcare-dashboard
+-git clone https://github.com/abhishek-ab7/healthcare-dashboard.git
+
+-cd healthcare-dashboard
 
 # Install dependencies
 npm install
