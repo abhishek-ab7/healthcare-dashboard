@@ -1,0 +1,46 @@
+.appointment-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: shadow 0.2s;
+}
+
+.appointment-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-info {
+  flex: 1;
+}
+
+.appointment-title {
+  font-weight: 500;
+  color: #1f2937;
+  margin-bottom: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.appointment-time {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.appointment-indicator {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.appointment-indicator.completed {
+  background: #10b981;
+}
+
+.appointment-indicator.scheduled {
+  background: #3b82f6;
+}
