@@ -10,7 +10,7 @@ const AnatomySection = () => {
         <div className="human-body-container">
           <div className="human-body">
             <div className="body-placeholder">Human Body</div>
-            {/* Health indicators positioned around the body */}
+            {https://www.istockphoto.com/photos/human-body-anatomy-3d}
             <div className="indicator indicator-heart">
               <div className="dot dot-green"></div>
             </div>
